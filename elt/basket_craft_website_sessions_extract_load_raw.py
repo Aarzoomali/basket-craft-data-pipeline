@@ -39,7 +39,7 @@ df = pd.read_sql(query, mysql_engine)
 
 
 # ✅ Connect to Postgres (destination)
-pg_url = f"postgresql+psycopg2://{pg_user}:{pg_password}@{pg_host}/{pg_db}"
+pg_url = f"postgresql+psycopg2://{pg_user}:{pg_password}@{pg_host}/{pg_db}?sslmode=require"
 pg_engine = create_engine(pg_url)
 
 # ✅ Load data into Postgres raw schema
