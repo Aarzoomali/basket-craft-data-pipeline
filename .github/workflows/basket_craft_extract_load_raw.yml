@@ -28,7 +28,7 @@ jobs:
           python-version: '3.12'
 
       - name: Install dependencies
-        run: pip install pandas sqlalchemy pymysql psycopg2-binary
+        run: pip install pandas sqlalchemy pymysql psycopg2-binary python-dotenv
 
       - name: Run data load script
         run: python3 elt/basket_craft_website_sessions_extract_load_raw.py
