@@ -10,3 +10,6 @@ This project brings together key roles—data engineering, analytics engineering
 
 Dashboard - https://lookerstudio.google.com/reporting/95600e1b-d3ff-41f4-b1d0-a7ec3be0631a
 
+Pipeline diagram-
+![Image](https://github.com/user-attachments/assets/d4863e9e-7614-43ee-8f6d-fceec0a851ee)
+
