@@ -172,3 +172,23 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# dbt local files and artifacts
+
+dbt_packages/
+
+target/
+
+logs/
+ 
+# dbt user-specific files
+
+profiles.yml
+
+.user.yml
+ 
+# Sensitive local env files
+
+.env
+
+ 
