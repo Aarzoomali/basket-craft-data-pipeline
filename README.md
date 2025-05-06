@@ -1,4 +1,5 @@
-Website Sessions Data Pipeline (Dec 2023)
+Website Sessions Data Pipeline (Dec 2023-
+
 This repository contains an end-to-end data pipeline built for the SQL - Take-Home Quiz 03. The goal was to replicate a real-world analytics workflow by extracting session data for December 2023 from a MySQL database, loading it into a Postgres raw table, transforming it with modular dbt models (staging and warehouse layers), and visualizing insights in Looker Studio.
 
 The pipeline was built using Python, Pandas, and SQLAlchemy to extract and load data (elt/basket_craft_website_sessions_extract_load_raw.py). It is automated with GitHub Actions, triggered manually or every 15 minutes, with all credentials securely managed using GitHub Secrets. Transformations are done using dbt, with staging (stg_website_sessions) and warehouse (fct_website_sessions_utm_source_daily) models that clean, structure, and aggregate data.
